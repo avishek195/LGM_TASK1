@@ -1,0 +1,72 @@
+.todo-container{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(99, 99, 221);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(103, 103, 237);
+
+}
+.text-input{
+    height: 35px;
+    width: 200px;
+    padding-left: 6px;
+}
+.button{
+     height: 38px;
+    width: 50px; 
+     display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: rgb(228, 228, 239);
+   cursor: pointer;
+
+}
+.todo-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+.lists:hover{
+    background-color: aqua;
+}
+/* .list:active{
+    background-color: red ;
+} */
+.lists{
+    /* gap:10%; */
+    height: 75px;
+    width: 400px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    color: black;
+    /* flex-direction: row;  */
+    font-size: 25px;
+    /* font-weight: 800; */
+}
+.check{
+    margin-left: 10px;
+}
+.cross{
+    margin-right: 10px;
+}
+.left{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* visibility: collapse; */
+}
